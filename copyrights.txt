@@ -1,0 +1,6 @@
+Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/blue-and-white-water-wave-nJX3ceE4zuU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+
+Exchange API by Fawaz Ahmed (https://github.com/fawazahmed0/exchange-api)
+
+Flags https://flagsapi.com/US/flat/64.png

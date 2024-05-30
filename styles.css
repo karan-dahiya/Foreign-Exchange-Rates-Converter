@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    animation: 1s all;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: navy; */
+        background-image: url('bgCurrency.jpg');
+        background-size: cover; /* Adjust as needed */
+        background-position: center; /* Adjust as needed */
+}
+h1,h4 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.9); /* Adjust shadow properties */
+    font-size: 2.4em;
+}
+h4 {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Adjust shadow properties */
+    transition: height 5s ease;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+form select,button, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.8rem;
+}
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /*margin-top: 2rem;*/
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.select-container img {
+    max-width: 3rem;
+}
+.select-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 6.5rem; */
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;
+    padding-left: 0.8rem;
+}
+.select-container select{
+    font-size: 1rem;
+}
+.msg {
+    margin: 1rem 0 1rem 0;
+}
+form button {
+    height: auto;
+    background-color: #003B85;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    width: auto;
+    padding: 8px;
+    /* padding: 10px 20px 10px 20px; */
+}
+.infoBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px 0 20px 0; */
+}
+
+.info {
+    margin: 20px 0 20px 0;
+    width: 50%;
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 247, 249);
+    padding: 5px;
+    border-radius: 8px;
+}
+.info>p{
+    padding: 0 5px 0 5px;
+}
+.info>i{
+    font-size: 1.5em;
+}
+.amount > p, .from> p, .to> p{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.dropdown> div {
+    width: 27%;
+}
+.icon {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    /* width: 5.5%; */
+    margin-top: 60px;
+    color: #003B85;
+}
+.select-container select:hover{
+    cursor: pointer;
+}
+.exchangeRates {
+    text-align: center;
+    color: black;
+    margin: 2rem;
+}
+.exchangeRates:hover{
+    cursor: pointer;
+}
+
+.headFrom>img , .headTo>img {
+    max-width: 2rem;
+}
+.headFrom2>img , .headTo2>img {
+    max-width: 2rem;
+}
+#tables {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 3rem; */
+    height: 80vh;
+}
+#table1, #table2{
+    text-align: center;
+    
+    margin: 2em;
+    border-radius: 1rem;
+    height: auto;
+    width: auto;
+    min-width: 460px;
+    box-shadow: 0 0 5px rgb(126, 124, 124);
+    font-size: 1.2rem;
+    padding: 1.5rem 0 1.5rem;
+}
+/* #table1 > thead, #table2 > thead{
+    background-color: black;
+} */
+.headFrom, .headTo {
+    width: 50%;
+}
+.tableBody1 > tr > td, .tableBody2 >tr > td {
+    padding: 10px 0 10px 0;
+}
+.table-light > tr > td  {
+    padding: 10px 0 10px 0;
+}
+.tableTitle2, .tableTitle1 {
+    padding: 20px;
+}
+#exchangeRates >a > i {
+    font-size: 2rem;
+    opacity: 80%;
+    cursor: pointer;
+    padding-top: 40px;
+    color: black;
+}
+
+#frequentSearch {
+padding: 2rem;
+}
+
+#frequentSearch {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap; /* Ensures flags stay in a single line */
+}
+#frequentSearch a {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the spacing between flags */
+}
+.btn-primary {
+    background-color: #003B85;
+}
+.btn-primary > img{
+    max-width: 3.5rem;
+}
+.flagsDetails {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+/* #frequentSearch {
+    overflow-x: hidden;
+} */
+.details {
+    padding: 2rem;
+    padding-top: 0;
+}
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
